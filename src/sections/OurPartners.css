@@ -1,0 +1,27 @@
+.our-partners {
+  background: #f8fafc;
+  padding: 50px 0;
+}
+
+.story-header h2 {
+  font-size: 36px;
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
+.story-header p {
+  font-size: 16px;
+  color: #334155;
+}
+
+.partners-full {
+  width: 100%;
+  overflow: hidden;
+}
+
+.partners-image {
+  width: 100%;
+  max-height: 500px; /* ممكن تعدل حسب التصميم */
+  object-fit: cover;
+  display: block;
+}

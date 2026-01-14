@@ -1,0 +1,35 @@
+.ourstory {
+  padding: 50px 0;
+  background: #f8fafc;
+}
+
+.story-header {
+  max-width: 800px;
+  margin-bottom: 60px;
+}
+
+.story-header h2 {
+  font-size: 40px;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.story-header p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #334155;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.story-card {
+  background: white;
+  padding: 25px;
+  border-left: 4px solid var(--secondary);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  font-weight: 500;
+}

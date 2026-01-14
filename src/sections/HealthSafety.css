@@ -1,0 +1,48 @@
+.health-section {
+  padding: 65px 0;
+  background: var(--light);
+}
+
+.health-header h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.health-header p {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  color: #334155;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.health-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.health-card {
+  background: white;
+  padding: 25px;
+  border-left: 4px solid var(--secondary);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.health-card h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.health-card p {
+  color: #334155;
+  font-size: 15px;
+  line-height: 1.6;
+}
