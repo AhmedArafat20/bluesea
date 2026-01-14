@@ -10,13 +10,13 @@
   color: var(--primary);
 }
 
-.section-subtitle {
+/* .section-subtitle {
   font-family: 'Inter', sans-serif;
   font-size: 1.1rem;
   color: var(--dark);
   max-width: 600px;
   margin: 0 auto;
-}
+} */
 
 .who-card {
   background: #ffffff;
@@ -33,4 +33,22 @@
 
 .text-secondary {
   color: var(--secondary) !important;
+}
+
+
+
+.section-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  color: var(--dark);
+  margin: 0;           /* يبدأ من أول السطر */
+  padding: 0;
+  text-align: left;    /* يبدأ من أول السطر */
+  direction: ltr;      /* نضمن أن النص LTR افتراضيًا */
+}
+
+/* لو عايز تعمل دعم RTL للعربي */
+[dir="rtl"] .section-subtitle {
+  text-align: right;   /* يبدأ من أول السطر على اليمين */
+  direction: rtl;
 }
