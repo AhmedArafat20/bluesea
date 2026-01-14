@@ -45,16 +45,21 @@ const Contact = () => {
 
           {/* Map */}
           <div className="contact-map">
-            <iframe
-              title="Riyadh Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.703366576628!2d46.675295015001356!3d24.71355158412112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03452c4ec617%3A0x8f8f1cfb5b1c11f4!2sRiyadh%2C%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1697593012345!5m2!1sen!2seg"
-              width="100%"
-              height="300"
-              style={{ border: 0, borderRadius: "12px" }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+<iframe
+  title="Riyadh Location"
+  src="https://www.google.com/maps?q=Riyadh%20Saudi%20Arabia&hl=ar&z=14&output=embed"
+  width="100%"
+  height="300"
+  style={{
+    border: 0,
+    borderRadius: "12px",
+    display: "block",
+  }}
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+></iframe>
+
+
           </div>
 
         </div>
